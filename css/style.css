@@ -15,12 +15,28 @@ body{
   text-align: center;
   color: #ffffff;
 }
-.logoBig{
+div.logo img{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 #about{
+
+}
+.happy, .breakfast, .lunch, .dinner{
+  border: 1px dashed orange;
+  text-align: center;
+}
+.happy{
+
+}
+.breakfast{
+
+}
+.lunch{
+
+}
+.dinner{
 
 }
 #menu{

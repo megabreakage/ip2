@@ -5,7 +5,6 @@ body{
   background-image: url("../assets/backgrounds/landing.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px dashed blue;
 }
 #about{
 

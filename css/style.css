@@ -4,6 +4,9 @@ body{
 .{
   box-sizing: border-box;
 }
+a{
+  color: #ffffff;
+}
 #home{
   background-image: url("../assets/backgrounds/landing.jpg");
   background-size: cover;
@@ -24,20 +27,34 @@ div.logo img{
 
 }
 .happy, .breakfast, .lunch, .dinner{
-  border: 1px dashed orange;
+  /*border: 1px dashed orange;*/
   text-align: center;
+  padding: 80px;
+}
+img{
+
+}
+.offer:hover{
+  opacity: 0.7;
+  color: black;
 }
 .happy{
 
 }
 .breakfast{
-
+  background-image: url("../assets/foodtop/breakfast.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .lunch{
-
+  background-image: url("../assets/foodtop/lunch.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .dinner{
-
+  background-image: url("../assets/foodtop/dinner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #menu{
 

@@ -7,6 +7,9 @@ body{
 a{
   color: #ffffff;
 }
+.icon-color{
+  color: #F15A29;
+}
 #home{
   background-image: url("../assets/backgrounds/landing.jpg");
   background-size: cover;
@@ -22,9 +25,6 @@ div.logo img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-#about{
-
 }
 .breakfast, .lunch, .dinner{
   /*border: 1px dashed orange;*/
@@ -72,6 +72,62 @@ img{
   background-size: cover;
   background-repeat: no-repeat;
 }
+#about{
+
+}
+.wrapper{
+  margin-top: 20px;
+  border: 1px dashed orange;
+}
+button{
+  padding: 15px 32px;
+  background-color: #ffffff;
+  color: #F15A29;
+  border: 1px solid #F15A29;
+  cursor: pointer;
+}
+/*for fast foods*/
+.fastFoodsImage{
+
+}
+.fastFoodsFrame{
+  float: right !important;
+  display: block;
+  padding: 15px;
+  border: 1px dashed orange;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.24);
+}
+div.fastFoodsFrame img{
+  width: 100%;
+}
+
+.fastFoodsTextFrame{
+  border: 1px dashed orange;
+}
+.fastFoodsTxt{
+
+}
+/*for drinks*/
+div.drinksFrame img{
+  margin: 0;
+}
+.drinksTextFrame{
+  border: 1px dashed orange;
+}
+.drinksTxt{
+
+}
+.drinksImage{
+
+}
+.drinksFrame{
+  float: left !important;
+  display: inline-block;
+  padding: 15px;
+  border: 1px dashed orange;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.24);
+}
+
 #menu{
 
 }

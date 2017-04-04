@@ -10,6 +10,14 @@ a{
 .icon-color{
   color: #F15A29;
 }
+li{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.wrapper{
+  margin-top: 20px;
+}
 #home{
   background-image: url("../assets/backgrounds/landing.jpg");
   background-size: cover;
@@ -27,7 +35,6 @@ div.logo img{
   margin-right: auto;
 }
 .breakfast, .lunch, .dinner{
-  /*border: 1px dashed orange;*/
   text-align: center;
   padding: 80px;
 }
@@ -72,16 +79,16 @@ div.logo img{
 #about{
 
 }
-.wrapper{
-  margin-top: 20px;
-}
-button{
+div.wrapper button{
   padding: 15px 32px;
   background-color: #ffffff;
   color: #F15A29;
   border: 1px solid #F15A29;
   border-radius: 5%;
   cursor: pointer;
+}
+.wrapper{
+  margin-bottom: 2%;
 }
 /*for fast foods*/
 .fastFoodsImage{
@@ -124,10 +131,48 @@ div.drinksFrame img{
   padding: 15px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.24);
 }
-
 #menu{
 
 }
+
 #contacts{
 
+}
+.contacts{
+  background-image: url("../assets/backgrounds/subscribe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+}
+.position-subscribe{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: inline-block;
+}
+.email, .subscribe{
+  padding: 10px 10px;
+  border: none;
+  border-radius: 3%;
+}
+.email{
+  color: black;
+  width: 25%;
+  opacity: 0.2;
+}
+.subscribe{
+  width: 10%;
+  margin-left: 20px;
+  background-color: #F15A29;
+}
+.footer{
+  color: #ffffff;
+  display: inline;
+  background-color: #F15A29;
+  padding-top: 2%;
+  text-align: center;
+}
+div.footer ul li{
+  text-align: center;
+  margin-right: 25px;
 }

@@ -89,6 +89,7 @@ div.wrapper button{
 }
 .wrapper{
   margin-bottom: 2%;
+  margin-bottom: 2%;
 }
 /*for fast foods*/
 .fastFoodsImage{
@@ -131,8 +132,13 @@ div.drinksFrame img{
   padding: 15px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.24);
 }
-#menu{
+#try{
 
+}
+.menu_{
+  /*background-image: url("../assets/backgrounds/foodsBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;*/
 }
 
 #contacts{

@@ -12,6 +12,7 @@ a{
 }
 li{
   display: inline-block;
+  list-style-type: none;
   text-decoration: none;
 }
 
@@ -77,6 +78,7 @@ div.logo img{
   background-repeat: no-repeat;
 }
 #about{
+  background-repeat: no-repeat;
 
 }
 div.wrapper button{
@@ -124,21 +126,21 @@ div.drinksFrame img{
   text-align: right;
 }
 .drinksImage{
-
+  margin: 0;
+  float: left;
 }
+
 .drinksFrame{
-  float: left !important;
   display: inline;
   padding: 15px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.24);
 }
-#try{
-
+#menu{
+  /*background-image: url("../assets/backgrounds/foodsBg.jpg");*/
+  /*background-repeat: no-repeat;*/
 }
-.menu_{
-  /*background-image: url("../assets/backgrounds/foodsBg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;*/
+.thisMenu{
+  border: 1px dashed orange;
 }
 
 #contacts{

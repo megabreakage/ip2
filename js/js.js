@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $("email").click(function() {
-    $(this).toggle();
+  $("input#email").click(function() {
+    $("value").hide();
+    $(this).hide();
   })
 })

@@ -115,8 +115,7 @@ div.fastFoodsFrame img{
 }
 /*for drinks*/
 div.drinksFrame img{
-  margin: 0;
-  padding: 0;
+  width: 50%
 }
 .drinksTextFrame{
 
@@ -126,7 +125,6 @@ div.drinksFrame img{
   text-align: right;
 }
 .drinksImage{
-  margin: 0;
   float: left;
 }
 

@@ -5,13 +5,12 @@
     <title>Anita's Kitchen</title>
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro:300,300" rel="stylesheet">
     <link rel="icon" href="assets/footerlogos/logo_white.png" type="image/png">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script href="js/js.js" type="text/javascript" type="text/javascript"></script>
     <script href="js/jquery-3.2.0.min.js" rel="javascript" type="text/javascript"></script>
-    <script href="js/bootstrap.js" rel="javascript" type="text/javascript"></script>
+    <script href="js/bootstrap.min.js" rel="javascript" type="text/javascript"></script>
   </head>
   <body>
     <!-- home -->
@@ -90,20 +89,39 @@
     </div>
     </div>
     <!-- menu -->
-    <div id="menu1">
-      <div class="thisMenu">
-        <ul>
-          <li class="menu">Fast Foods</li>
-          <li class="menu">Drinks</li>
-          <li class="menu">Chicken</li>
-          <li class="menu">Rice</li>
-        </ul>
+    <div class="col-md-12" id="menu">
+      <div class="col-md-8, col-lg-8 menuNav">
+        <div id="menuSection">
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle ="tab" href="#menuhome">Fast Foods</a></li>
+            <li><a data-toggle ="tab" href="#menu1">Drinks</a></li>
+            <li><a data-toggle ="tab" href="#menu1">Chicken</a></li>
+            <li><a data-toggle ="tab" href="#menu1">Rice</a></li>
+          </ul>
+        </div>
+        <div class="tab content">
+          <div id="menuHome" class="tab-pane fade in active">
+            <img src="assets/fastfood/beefBurger.jpg" alt="">
+            <img src="assets/fastfood/chickenBurger.jpg" alt="">
+            <img src="assets/fastfood/chickenPizza.jpg" alt="">
+          </div>
+          <div class="tab-pane fade" id="menu1">
+            <img src="assets/fastfood/beefBurger.jpg" alt="">
+            <img src="assets/fastfood/chickenBurger.jpg" alt="">
+            <img src="assets/fastfood/chickenPizza.jpg" alt="">
+          </div>
+        </div>
       </div>
-      <div class="well well-lg">
+    </div>
+    <div class="col-xs-12 col-md-8 comments">
+      <div class="col-xs-12 col-md-8 georgeRichard">
         <h3>Our Happy Customers</h3>
         <h2>George Richard</h2>
         <p>Great food menu is awesome,there foods are not only great
            but also in the right price.i'll highly recommend them :)</p>
+      </div>
+      <div class="col-xs-12 col-md-4 aboutMenu">
+        <h3>About Menu</h3>
       </div>
     </div>
 

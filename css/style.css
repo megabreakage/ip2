@@ -145,7 +145,13 @@ div.drinksFrame img{
 
 }
 .menuNav{
-  margin-top: 5%;
+  top: 20%;
+  padding: 30px 10px;
+  float: none !important;
+  margin: 0 auto;
+  background-color: #EEEEEE;
+}
+.tab-pane{
   float: none !important;
   margin: 0 auto;
 }
@@ -164,7 +170,6 @@ div.drinksFrame img{
   text-align: center;
   float: none !important;
   margin: 0 auto;
-  /*border: 1px dashed orange;*/
   height: 100px;
 }
 .georgeRichard{
